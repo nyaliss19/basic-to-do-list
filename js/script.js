@@ -34,3 +34,4 @@ function newItem() {
   $("#list").sortable();
 }
 
+let list = $("#list");
