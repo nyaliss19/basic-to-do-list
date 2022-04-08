@@ -35,3 +35,4 @@ function newItem() {
 }
 
 let list = $("#list");
+let li = $("<li></li>");
