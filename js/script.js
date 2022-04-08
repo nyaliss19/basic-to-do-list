@@ -13,12 +13,11 @@ function newItem() {
   //   list.appendChild(li);
   // }
 
-  if (inputValue === "") {
-    alert("You must write something!");
-  } else {
-    let list = document.querySelector("#list");
-    list.appendChild(li);
-  }
+  //jquery
+  let list = $("#list");
+  let li = $("<li></li>");
+  let inputValue = $("#input").val();
+  li.append(inputValue);
 
   //2. Crossing out an item from the list of items:
   // function crossOut() {
