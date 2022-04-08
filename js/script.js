@@ -26,7 +26,10 @@ function newItem() {
   //
   // li.addEventListener("dblclick", crossOut);
 
-  li.addEventListener("dblclick", crossOut);
+  //jquery
+  li.on("click", function () {
+    li.addClass("strike");
+  });
 
   //3(i). Adding the delete button "X":
   // let crossOutButton = document.createElement("crossOutButton");
