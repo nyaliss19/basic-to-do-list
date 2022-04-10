@@ -17,6 +17,7 @@ function newItem() {
   let list = $("#list");
   let li = $("<li></li>");
   let inputValue = $("#input").val();
+  $("#input").append(li);
   li.append(inputValue);
 
   //2. Crossing out an item from the list of items:
