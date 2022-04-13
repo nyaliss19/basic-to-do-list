@@ -45,9 +45,9 @@ function newItem() {
   li.append(deleteButton);
   //
   //3(ii). Adding CLASS DELETE (DISPLAY: NONE) from the css:
-  function deleteListItem() {
+  li.on("click", function deleteListItem() {
     li.addClass("delete");
-  }
-  // 4. Reordering the items:
-  $("#list").sortable();
+  }),
+    // 4. Reordering the items:
+    $("#list").sortable();
 }
