@@ -28,7 +28,7 @@ function newItem() {
   // li.addEventListener("dblclick", crossOut);
 
   //jquery
-  li.on("click", function () {
+  li.on("dblclick", function () {
     li.addClass("strike");
   });
 
