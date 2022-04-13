@@ -46,7 +46,7 @@ function newItem() {
   //
   //3(ii). Adding CLASS DELETE (DISPLAY: NONE) from the css:
   function deleteListItem() {
-    li.classList.add("delete");
+    li.addClass("delete");
   }
   // 4. Reordering the items:
   $("#list").sortable();
